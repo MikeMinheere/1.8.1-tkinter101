@@ -17,9 +17,8 @@ def time():
  
 #styling
 lbl = Label(root, font = ('calibri', 40, 'bold'),
-            background = 'light green',
-            foreground = 'black')
- 
+    background = 'light green',
+    foreground = 'black')
 #klok centreren
 lbl.pack(anchor = CENTER)
 time()
